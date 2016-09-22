@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<task id="1">
+		<start_date><![CDATA[2013-04-01 00:00:00]]></start_date>
+		<duration><![CDATA[5]]></duration>
+		<text><![CDATA[Project #1]]></text>
+		<progress><![CDATA[0.8]]></progress>
+		<sortorder><![CDATA[20]]></sortorder>
+		<parent><![CDATA[0]]></parent>
+		<open>1</open>
+		<users><![CDATA["aziz"]]></users>
+		<priority><![CDATA[2]]></priority>
+		
+		
+	</task>
+	<task id="2">
+		<start_date><![CDATA[2013-04-06 00:00:00]]></start_date>
+		<duration><![CDATA[4]]></duration>
+		<text><![CDATA[Task #1]]></text>
+		<progress><![CDATA[0.5]]></progress>
+		<sortorder><![CDATA[10]]></sortorder>
+		<parent><![CDATA[1]]></parent>
+		<open>1</open>
+		<users><![CDATA["john"]]></users>
+		<priority><![CDATA[1]]></priority>
+	</task>
+
+	<task id="3">
+		<start_date><![CDATA[2013-04-05 00:00:00]]></start_date>
+		<duration><![CDATA[6]]></duration>
+		<text><![CDATA[Task #2]]></text>
+		<progress><![CDATA[0.7]]></progress>
+		<sortorder><![CDATA[20]]></sortorder>
+		<parent><![CDATA[1]]></parent>
+		<open>1</open>
+		<users><![CDATA["john"]]></users>
+		<priority><![CDATA[1]]></priority>
+	</task>
+	<task id="4">
+		<start_date><![CDATA[2013-04-07 00:00:00]]></start_date>
+		<duration><![CDATA[2]]></duration>
+		<text><![CDATA[Task #3]]></text>
+		<progress><![CDATA[0]]></progress>
+		<sortorder><![CDATA[30]]></sortorder>
+		<parent><![CDATA[1]]></parent>
+		<open>1</open>
+		<users><![CDATA["john"]]></users>
+		<priority><![CDATA[1]]></priority>
+	</task>
+
+
+	
+	<coll_options for="links">
+		<item source="5" target="2" type="1" />
+		<item source="1" target="3" type="3" />
+		<item source="1" target="4" type="2" />
+		<item source="2" target="6" type="0" />
+	</coll_options>
+</data>
